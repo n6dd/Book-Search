@@ -1,7 +1,7 @@
 import { signToken } from '../services/auth.js';
 import { GraphQLError } from 'graphql';
 import { AuthenticationError } from 'apollo-server-express';
-import User from '../models/User';
+import User from '../models/User.js';
 
 
 interface CreateUserArgs {

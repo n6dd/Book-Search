@@ -6,8 +6,8 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import db from './config/connection.js';
 import routes from './routes/index.js';
-import typeDefs from './schemas/typeDefs';
-import resolvers from './schemas/resolvers';
+import typeDefs from './schemas/typeDefs.js';
+import resolvers from './schemas/resolvers.js';
 import { getUserFromToken } from './services/auth.js';
 
 const app = express();
